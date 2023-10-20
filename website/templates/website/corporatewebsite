@@ -1,0 +1,35 @@
+{% extends "website/layout.html" %}
+
+{% block body %}
+
+<!-- first bar-->
+
+<div class="container-fluid text-center p-4  bg-dark text-light">
+    <h3 style="font-weight: bold;">Corporate Website Development</h3></div>
+    <div class="container-fluid text-center pb-3 bg-dark text-light">
+    <h6 style="color:gray;text-align: center;padding-bottom: 10px;"> Home /
+    <font color="gray"> Website Design and Development</font> / <font style="color:green;"> Corporate Website Development</font></h6>
+  </div><br>
+
+  <!--second-->
+  <div class="container-fluid text-center p-4 ">
+    <h3 style="font-family: Geneva, ">Corporate Website Development</h3><p style="font-family: Georgia">
+        Small Business Web Design Solution</p><h5 style="text-align:center;">_ _ _</h5>
+      </div>
+
+      <div class="container-fluid p-5">
+        <p style="color: gray;">A corporate website is a platform where one can gain the entire knowledge about your
+             business and reach out to you for your services or help. We help the clients create websites that 
+             dedicatedly target towards the Client Brand’s message with the target audience. Web Solutions India 
+             aims at achieving client expectations for every single element of a corporate website using
+              cutting-edge technology. Our project introduction or discussion process ensures that all client 
+              requirements are understood thoroughly and envisioned correctly before the corporate web 
+              development begins. On understanding the business objectives, we brainstorm well-enough to create 
+              an aesthetic and well-functioning product, which the client can test and run for any functionality.
+            </p></div>
+<!--end-->
+{% endblock %}
+
+
+
+
