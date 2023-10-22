@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-c-spkqv^@)dkpzfg9y9x47^$arj*2=z$m15&ls_2v!mq7nemuv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -70,7 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'solutions.wsgi.application'
 
-
+CSRF_TRUSTED_ORIGINS = ['https://prathibhasolutions.com']
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 

@@ -30,7 +30,15 @@ urlpatterns = [
      path("cms", views.cms_view, name="cms"),
      path("ui", views.ui_view, name="ui"),
      path("landing", views.landing_view, name="landing"),
-     path("corporatewebsite", views.corporate_view, name="corporatewebsite")
+     path("corporatewebsite", views.corporatewebsite_view, name="corporatewebsite"),
+    path("enquiry", views.enquiry_view, name="enquiry"),
+     path("vehicle", views.vehicle_view, name="vehicle"),
+     path("astrology", views.astrology_view, name="astrology"),
+     path("foodorder", views.foodorder_view, name="foodorder"),
+     path("manufacture", views.manufacture_view, name="manufacture"),
+     path("joinapp", views.joinapp_view, name="joinapp"),
+     path("subscription", views.subscription_view, name="subscription"),
+     path("community", views.community_view, name="community"),
     
      
 ]

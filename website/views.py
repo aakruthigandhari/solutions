@@ -124,6 +124,31 @@ def landing_view(request):
      return render(request, "website/landing.html")
 
 
+def enquiry_view(request):
+     return render(request, "website/enquiry.html")
+
+def vehicle_view(request):
+     return render(request, "website/vehicle.html")
+
+def astrology_view(request):
+     return render(request, "website/astrology.html")
+
+def foodorder_view(request):
+     return render(request, "website/foodorder.html")
+
+def manufacture_view(request):
+     return render(request, "website/manufacture.html")
+
+def joinapp_view(request):
+     return render(request, "website/joinapp.html")
+
+def subscription_view(request):
+     return render(request, "website/subscription.html")
+
+def community_view(request):
+     return render(request, "website/community.html")
+
+
 
 
 
